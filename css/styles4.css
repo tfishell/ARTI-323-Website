@@ -2,23 +2,25 @@
 /* CSS Document */
 
 #container{
+	position: relative;
 	background-color: #A7E0FF;
 	margin: auto;
 	margin-top: 25%;
-	height: 360px;
 	width: 480px;
+	height: 360px;
+
 	
 }
 
 
 #icon_1{
 	position: absolute;
-	margin-left: 155px;
-	margin-top: 95px;
+	right: 251px;
+	bottom: 188px;
 	border: 7px;
 	/*width and height are 1.25 the division of the height and width of the container*/
-	width: 60px;
-	height: 60px;
+	width: 192px;
+	height: 144px;
 	background-color: red;
 	padding:7px;
 
@@ -27,35 +29,36 @@
 
 #icon_2{
 	position: absolute;
-	margin-left: 245px;
-	margin-top: 95px;
-	padding:7px;
+	left: 245px;
+	bottom: 188px;
 	border:7px;
-	width:60px;
-	height:60px;
+	width: 192px;
+	height: 144px;
 	background-color: red;
+	padding:7px;
+
 }
 
 #icon_3{
 	position: absolute;
-	margin-left: 155px;
-	margin-top: 185px;
+	right: 251px;
+	top: 188px;
 	padding:7px;
 	border:7px;
-	width:60px;
-	height:60px;
+	width: 192px;
+	height: 144px;
 	background-color: red;
 	
 }
 
 #icon_4{
 	position: absolute;
-	margin-left: 245px;
-	margin-top: 185px;
+	left: 245px;
+	top: 188px;
 	padding:7px;
 	border:7px;
-	width: 60px;
-	height:60px;
+	width: 192px;
+	height: 144px;
 	background-color: red;
 
 
