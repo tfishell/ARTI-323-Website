@@ -1,21 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#container{
+#container_popup{
 	margin:auto;
 	width:480px;
 	height:384px;
 	padding:0px;
 	margin-top:100px;
-	background-color:#f7f7f4;
-	
-	
+	background-color:#f7f7f4;	
 }
 
 
 #header{
-	height:120px;
-	
+	height:120px;	
 }
 
 
@@ -27,19 +24,15 @@
 	border:thick;
 	border:#333;
 	padding-left:5px;
-	
 }
 
 #title{
 	font-size:11px;
 	position:absolute;
 	margin-top:-180px;
-	
 }
 
 #description{
 	font-size:12px;
-	margin-top:-140px;
-	
-	
+	margin-top:-140px;	
 }
