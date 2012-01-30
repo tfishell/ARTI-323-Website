@@ -17,8 +17,10 @@
 	padding:7px;
 	border: 7px;
 	/*width and height are 1.25 the division of the height and width of the container*/
-	width:466px;
-	height:294px;
+	/*width:466px;
+	height:294px;*/
+	width:60px;
+	height:60px;
 	background-color: #E6EBFF;	
 }
 
