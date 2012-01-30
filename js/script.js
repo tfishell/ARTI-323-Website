@@ -1,8 +1,16 @@
 $(document).ready(function() {
 
 	$("#icon_1").click(function() {
-	   // Tyler, put your animation here, then use the complete function handler to load the javascript
 	 	loadPage("pages/1.html", $(this));
+	});
+	$("#icon_2").click(function() {
+	 	loadPage("pages/2.html", $(this));
+	});
+	$("#icon_3").click(function() {
+	 	loadPage("pages/3.html", $(this));
+	});
+	$("#icon_4").click(function() {
+	 	loadPage("pages/4.html", $(this));
 	});
 	
  });
@@ -18,8 +26,15 @@ $(document).ready(function() {
 	
 	jqxhr.done(function(str) { 
 		//success 
+		square.html(""); // clear out gif progress animation and grow box. 
 		console.log(str);
-		square.html(str);
+		square.animate({
+		   width: '+=406px',
+		   height: '+=234px',
+		}, 1500, function() {
+    		square.html(str);
+  		});
+		
 	});
 	
 	jqxhr.fail(function(str) { 
